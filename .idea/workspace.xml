@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="821a33d9-459c-475b-bb4b-8a7b508b2ee6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/gabri.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eu.jpg" afterPath="$PROJECT_DIR$/eu.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bio.html" afterPath="$PROJECT_DIR$/bio.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/concluindo.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -207,12 +202,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491926639312</updated>
-      <workItem from="1491926641216" duration="8418000" />
+      <workItem from="1491926641216" duration="8827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8418000" />
+    <option name="totallyTimeSpent" value="8827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-349" y="15" width="702" height="698" extended-state="0" />
