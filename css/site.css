@@ -24,20 +24,6 @@ p {
     margin: 20px 0;
 }
 
-.citacao-bio {
-    background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;
-    width: 330px;
-    box-sizing: border-box;
-    margin-left: 20px;
-    margin-right: 0px;
-
-}
-
-.bec-wellington {
-    float: right;
-}
-
 .rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
@@ -53,7 +39,7 @@ main a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-.citacao-bio, .navegacao-site, .rodape-pagina {
+.navegacao-site, .rodape-pagina {
     padding: 20px;
 }
 
@@ -86,21 +72,6 @@ em {
     display: inline-block;
 }
 
-.artigo {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.leia-mais {
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
-}
-
 nav a {
     text-transform: lowercase;
 }
@@ -113,20 +84,20 @@ nav a {
 }
 
 .github {
-    background-image: url(../Images/github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter {
-    background-image: url(../Images/twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(../Images/linkedin.png);
+    background-image: url(../img/linkedin.png);
 }
 
 main {
     float: left;
-    width: 85%;
+    width: 80%;
 }
 
 .minha-foto, .navegacao-site {
@@ -140,14 +111,9 @@ main {
     text-align: center;
     background-color: #3C1D3D;
     color: #F2FFFC;
-    width: 15%;
-    position: relative;
+    position: absolute;
     top: 310px;
-}
-
-cite {
-    font-style: italic;
-    float: right;
+    right: 0;
 }
 
 .minha-foto{
