@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
+        <title>Blog  - Gabriel Lemos</title>
         <meta charset = "UTF-8">
         <link rel="icon" href="../Images/favicon.png">
         <link rel="stylesheet" href="../Style/reset.css">
         <link rel="stylesheet" href="../Style/site.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
-        <title>Blog  - Gabriel Lemos</title>
     </head>
     <body>
         <main>
             <h1 class="titulo-principal">Blog</h1>
+            <div class="container">
+                <article class="artigo">
+                    <h2 class="subtitulo-texto">O essencial de design responsivo</h2>
+                    <time datetime="2017-04-11">11 de abril de 2017</time>
+                    <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?</p>
+                
+                    <a class="leia-mais" href="#">Leia mais</a>
+                    <footer >Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
+                </article>
         
-            <article>
-                <h2>O essencial de design responsivo</h2>
-                <time datetime="2017-04-11">11 de abril de 2017</time>
-                <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?</p>
+                <article class="artigo">
+                    <h2 class="subtitulo-texto">JavaScript não obstrusivo</h2>
+                    <time datetime="2017-04-10">10 de abril de 2017</time>
             
-                <a class="leia-mais" href="#">Leia mais</a>
-                <footer class="tags">Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
-            </article>
-    
-            <article>
-                <h2>JavaScript não obstrusivo</h2>
-                <time datetime="2017-04-10">10 de abril de 2017</time>
-        
-                <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
-        
-                <a CLASS="leia-mais" href="#">Leia mais</a>
-                <footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
-            </article>
+                    <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
+            
+                    <a class="leia-mais" href="#">Leia mais</a>
+                    <footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
+                </article>
+            </div>
         </main>
         
-        <img src="../Images/eu.jpg" alt="Foto de Gabriel Lemos" />
+        <img class="minha-foto" src="../Images/eu.jpg" alt="Foto de Gabriel Lemos" />
 
-        <aside>
+        <aside class="navegacao-site">
             <h1>Gabriel Lemos</h1>
             <nav>
                 <ul>
@@ -46,9 +47,26 @@
                     <li><a href="../Pages/contato.html">Contato</a></li>
                 </ul>
             </nav>
+            <ul class="icones-redes-sociais">
+                <li>
+                    <a class="github" href=
+                            "https://github.com/gablemos">GitHub
+                    </a>
+                </li>
+                <li>
+                    <a class="twitter" href=
+                            "https://twitter.com/bulkyu">Twitter
+                    </a>
+                </li>
+                <li>
+                    <a class="linkedin" href=
+                            "https://www.linkedin.com/in/lemosgabriel/">LinkedIn
+                    </a>
+                </li>
+            </ul>
         </aside>
         
-        <footer class="copyright">
+        <footer class="rodape-pagina">
             &copy; Gabriel Elias Faria Lemos 2017
         </footer>
     </body>

@@ -16,6 +16,7 @@ h1, h2 {
     padding: 25px;
     border-bottom: 10px solid black;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 p {
@@ -23,60 +24,49 @@ p {
     margin: 20px 0;
 }
 
-.citacao-trabalho {
+.citacao-bio {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
-    width: 250px;
+    width: 330px;
     box-sizing: border-box;
-    margin: 20px 40px;
+    margin-left: 20px;
+    margin-right: 0px;
+
 }
 
-.navegacao-site {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    padding: 20px;
-    text-align: center;
+.bec-wellington {
+    float: right;
 }
 
-.copyright {
+.rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
-}
-
-nav a {
-    color: #F2FFFC;
+    clear: both;
 }
 
 main a {
     color: #851944;
 }
 
-aside a {
+.navegacao-site a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-blockquote, aside, footer {
+.citacao-bio, .navegacao-site, .rodape-pagina {
     padding: 20px;
 }
 
-main div {
+.container {
     width: 720px;
     margin: auto;
-    padding: 30px 0;
+    padding: 40px 0;
+    padding-bottom: 10px;
 }
 
-aside {
-    text-align: center;
-}
-
-aside h1 {
+.navegacao-site h1 {
     font-size: 30px;
     margin-bottom: 25px;
-}
-
-.icones-redces-sociais li{
-    display: inline-block;
 }
 
 strong {
@@ -87,21 +77,81 @@ em {
     font-style: italic;
 }
 
-h2 {
+.subtitulo-texto {
     font-size: 30px;
+    clear: both;
 }
 
-article{
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.artigo {
     padding-bottom: 30px;
-    border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
 }
 
-.leia-mais{
-    font-size: 24px;
-    margin: 16px;
+.leia-mais {
     padding: 8px;
+    margin: 16px;
     display: block;
+    font-size: 24px;
     text-align: center;
     background-color: #E6E7E8;
+}
+
+nav a {
+    text-transform: lowercase;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(../Images/github.png);
+}
+
+.twitter {
+    background-image: url(../Images/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../Images/linkedin.png);
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.navegacao-site {
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
