@@ -4,24 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="14" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821a33d9-459c-475b-bb4b-8a7b508b2ee6" name="Default" comment="Atualização">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Style/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Style/site.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bio.html" afterPath="$PROJECT_DIR$/Pages/bio.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog.html" afterPath="$PROJECT_DIR$/Pages/blog.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/concluido2.jpg" afterPath="$PROJECT_DIR$/Images/concluido2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/contato.html" afterPath="$PROJECT_DIR$/Pages/contato.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/eu.jpg" afterPath="$PROJECT_DIR$/Images/eu.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon.png" afterPath="$PROJECT_DIR$/Images/favicon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/github.png" afterPath="$PROJECT_DIR$/Images/github.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedin.png" afterPath="$PROJECT_DIR$/Images/linkedin.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/Pages/portfolio.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reset.css" afterPath="$PROJECT_DIR$/Style/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twitter.png" afterPath="$PROJECT_DIR$/Images/twitter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="821a33d9-459c-475b-bb4b-8a7b508b2ee6" name="Default" comment="Atualização" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,7 +33,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="408">
               <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding />
             </state>
@@ -113,10 +96,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="836" />
+    <option name="y" value="7" />
+    <option name="width" value="523" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -312,7 +295,7 @@
       <workItem from="1492020513807" duration="4209000" />
       <workItem from="1493818361193" duration="1203000" />
       <workItem from="1493922331412" duration="8629000" />
-      <workItem from="1493993461547" duration="76000" />
+      <workItem from="1493993461547" duration="766000" />
     </task>
     <task id="LOCAL-00001" summary="Portifolio.html implementado">
       <created>1491946615427</created>
@@ -346,13 +329,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34137000" />
+    <option name="totallyTimeSpent" value="34827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="836" y="7" width="523" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15519765" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41814595" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -522,7 +505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="408">
           <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding />
         </state>
