@@ -2,8 +2,9 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" href="favicon.png">
-        <link rel="stylesheet" href="site.css">
+        <link rel="icon" href="../Images/favicon.png">
+        <link rel="stylesheet" href="../Style/reset.css">
+        <link rel="stylesheet" href="../Style/site.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
         <title>Biografia - Gabriel Lemos</title>
@@ -11,9 +12,9 @@
 
     <body>
         <main>
-            <h1>Sobre mim</h1>
+            <h1 class="titulo-principal">Sobre mim</h1>
             
-            <div>
+            <div class="texto">
                 
                 <p>Aluno de <strong>Ciência da Computação</strong> que, depois de se perder em mais áreas do que era possível, encontrou na programação um propósito na vida. Tentando ser desenvolvedor e tem como primeira missão aprender <strong>HTML5</strong>, <strong>CSS3</strong> e <strong>JavaScript</strong>(ou melhor: ECMAScript), mas carrega consigo as suas maiores paixões acadêmicas <strong>Java</strong> e <strong>C#</strong>.</p>
         
@@ -21,7 +22,7 @@
         
                 <h2>Como trabalho</h2>
                 
-                <blockquote>
+                <blockquote class="citacao-trabalho">
                     <p>Gostaria de recomendar este profissional, dedicado, empenhado e muito inteligente.Atende as necessidades e demostra muito conhecimento em sua área de atuação</p>
                     <cite>-- Welligton Lemos, B&C Construções (via LinkedIn)</cite>
                 </blockquote>
@@ -42,26 +43,32 @@
         
                 <h2>Comunidade</h2>
         
-                <p>Procuro repassar meu conhecimento para a comunidade, colegas de curso. Para isso, já dei algumas palestras e mantenho um pequeno acervo de apostilas complementares aos conteúdos já estudados no curso superior e mantenho um <a href="blog.html">blog</a>.</p>
+                <p>Procuro repassar meu conhecimento para a comunidade, colegas de curso. Para isso, já dei algumas palestras e mantenho um pequeno acervo de apostilas complementares aos conteúdos já estudados no curso superior e mantenho um <a href="../Pages/blog.html">blog</a>.</p>
             </div>
         </main>
         
-        <img src="eu.jpg" alt="Foto de Gabriel Lemos" />
+        <img src="../Images/eu.jpg" alt="Foto de Gabriel Lemos" />
 
-        <aside>
+        <aside class="navegacao-site">
             <h1>Gabriel Lemos</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="bio.html">Sobre mim</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Pages/portfolio.html">Portfolio</a></li>
+                    <li><a href="../Pages/bio.html">Sobre mim</a></li>
+                    <li><a href="../Pages/blog.html">Blog</a></li>
+                    <li><a href="../Pages/contato.html">Contato</a></li>
                 </ul>
             </nav>
+            <ul class="icones-redces-sociais">
+                <li><a href="https://github.com/gablemos"><img src="../Images/github.png" alt="Github"></a></li>
+                <li><a href="https://twitter.com/bulkyu"><img src="../Images/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/lemosgabriel/"><img src="../Images/linkedin.png" alt="Linkedin"></a></li>
+            </ul>
+            
         </aside>
     
-        <footer>
+        <footer class="copyright">
             &copy; Gabriel Elias Faria Lemos 2017
         </footer>
     </body>
