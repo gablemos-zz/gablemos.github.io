@@ -1,0 +1,19 @@
+.citacao-bio {
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 330px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 20px;
+
+}
+
+.bec-wellington {
+    float: right;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
